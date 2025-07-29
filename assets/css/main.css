@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@config "../../tailwind.config.js";
+
+@theme {
+    --default-font-family: "Poppins", "sans-serif";
+    --title-font-family: "Marcellus", "serif";
+
+    /* Color Palette */
+    --color-gray-50: #f6f6f6;
+    --color-gray-100: #e7e7e7;
+    --color-gray-200: #d1d1d1;
+    --color-gray-300: #b0b0b0;
+    --color-gray-400: #888888;
+    --color-gray-500: #6d6d6d;
+    --color-gray-600: #5d5d5d;
+    --color-gray-700: #4f4f4f;
+    --color-gray-800: #454545;
+    --color-gray-900: #3f3f3f;
+    --color-gray-950: #262626;
+
+    --color-nature-green-50: #f5f9f4;
+    --color-nature-green-100: #e9f2e6;
+    --color-nature-green-200: #d3e4ce;
+    --color-nature-green-300: #b0cea7;
+    --color-nature-green-400: #7baa6e;
+    --color-nature-green-500: #629255;
+    --color-nature-green-600: #4d7742;
+    --color-nature-green-700: #3f5f36;
+    --color-nature-green-800: #354c2f;
+    --color-nature-green-900: #2c3f28;
+    --color-nature-green-950: #152112;
+
+    --color-dark-oat-50: #f8f8f8;
+    --color-dark-oat-100: #f1efef;
+    --color-dark-oat-200: #e5e3e3;
+    --color-dark-oat-300: #d3cece;
+    --color-dark-oat-400: #b8b1b1;
+    --color-dark-oat-500: #aaa2a2;
+    --color-dark-oat-600: #867c7c;
+    --color-dark-oat-700: #6f6666;
+    --color-dark-oat-800: #5d5757;
+    --color-dark-oat-900: #514b4b;
+    --color-dark-oat-950: #292626;
+
+    --color-oat-50: #f8f6f4;
+    --color-oat-100: #f3f0ed;
+    --color-oat-200: #dcd4cc;
+    --color-oat-300: #c6b7ab;
+    --color-oat-400: #af9788;
+    --color-oat-500: #9e8071;
+    --color-oat-600: #917165;
+    --color-oat-700: #795c55;
+    --color-oat-800: #644d48;
+    --color-oat-900: #52403c;
+    --color-oat-950: #2b211f;
+
+    /* Theme Colors */
+    --color-vinoteqa: #8a101e;
+    --color-vinoteqa-light: #b31926;
+    --color-vinoteqa-hover: #991b1e;
+    --color-vinoteqa-outline: #660d17;
+
+    --color-primary: var(--color-vinoteqa);
+    --color-primary-light: var(--color-vinoteqa-light);
+    --color-primary-hover: var(--color-vinoteqa-hover);
+    --color-primary-outline: var(--color-vinoteqa-outline);
+
+    --color-secondary: var(--color-nature-green-400);
+    --color-secondary-light: var(--color-nature-green-50);
+    --color-secondary-hover: var(--color-nature-green-500);
+    --color-secondary-outline: var(--color-nature-green-600);
+
+    --color-input: var(--color-dark-oat-500);
+    --color-input-light: var(--color-dark-oat-50);
+    --color-input-hover: var(--color-dark-oat-400);
+    --color-input-outline: var(--color-dark-oat-600);
+
+    --color-text-default: var(--color-gray-900);
+    --color-text-hover: var(--color-gray-950);
+    --color-text-muted: var(--color-gray-400);
+    --color-text-link: var(--color-primary);
+    --color-text-link-hover: var(--color-primary-hover);
+
+    --color-background: var(--color-oat-100);
+    --color-background-body: var(--color-oat-50);
+    --color-surface: var(--color-white);
+
+    --color-success: var(--color-green-500);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font-family);
+}
+
+body {
+    font-family: var(--default-font-family);
+}
+
+.font-title {
+    font-family: var(--title-font-family);
+}
