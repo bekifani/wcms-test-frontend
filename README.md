@@ -24,14 +24,6 @@ Using the provided mockup (`design.png`), build a responsive table component for
 
 ---
 
-## 📦 Deliverables
-
-* A single `.vue` file or a small Nuxt project.
-* Clear **comments** describing your approach and responsive choices.
-* Proper **commit messages** showing your workflow.
-
----
-
 ## ⏱️ Time Limit (Important)
 
 You have **30 minutes** to complete this task.
@@ -111,17 +103,30 @@ Use the `useWines` composable and map the data to the table columns:
 
 ## 📤 Submission
 
-1. Complete as much as possible **within 30 minutes**.
-2. Add comments for:
+1. Duplicate this repository and implement your solution.
+2. Complete as much as possible **within 30 minutes**.
+3. Add comments for:
 
    * UX improvements
    * Responsiveness approach
-3. Commit your work and submit the repository or zipped folder.
+4. Commit your work and share the link to your forked repository as the deliverable.
+
+### 🚨 Rules
+
+1. **Private repo:** Copy this repository into a **private repo**.
+2. **Access:** Add `@lelebus` with read access to your copy of the project.
+3. **Disqualification:** Any public forks or public sharing of the solution will lead to automatic disqualification from the challenge.
+
+#### 🔒 How to Make Your Fork Private
+
+1. If you want to fork the project: after you fork it, go to the repo's Settings → General.
+2. Scroll down to Danger Zone and click Leave fork network.
+3. Once disconnected, you can set the repository to Private under Settings → General → Visibility.
 
 ---
 
 ## 🔎 Notes
 
-* Tailwind CSS is preconfigured.
+* Tailwind CSS is preconfigured. 
 * Use semantic HTML and ensure accessibility.
 * Focus on clarity and usability, not pixel-perfect visuals.
