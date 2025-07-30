@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    './src/**/*.{vue,js,ts,jsx,tsx}', // Adjust this to match your project structure
+    './components/**/*.{vue,js,ts,jsx,tsx}',
+    './pages/**/*.{vue,js,ts,jsx,tsx}',
+  ],
   theme: {
     extend: {
       fontSize: {
